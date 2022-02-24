@@ -1,0 +1,131 @@
+/* style library  */
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    background-color: var(--Very-dark-blue-main-BG);
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+    font-family: 'Merriweather', serif;
+}
+
+div {
+    display: block;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: var(--Soft-blue);
+    font-size: 1rem;
+}
+
+.card {
+    width: 290px;
+    background-color: var(--Very-dark-blue-card-BG);
+    border-radius: 10%;
+    padding: 1rem;
+}
+
+.card-image {
+    position: relative;
+    height: 290px;
+}
+
+.image-nft {
+    border-radius: 7%;
+    height: 100%;
+    position: absolute;
+}
+
+.card-image-view {
+    align-items: center;
+    background-color: var(--cyanAlt);
+    border-radius: 10px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+
+    transition: opacity .3s ease;
+}
+
+.card-image-view:hover {
+    opacity: 1;
+}
+
+.image-view {
+    width: 50xp;
+}
+
+.card-body {
+    margin: 3% 0;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    color: var(--White);
+}
+
+.card-title:hover {
+    color: var(--Cyan);
+}
+
+.card-status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-price {
+    color: var(--Cyan);
+    display: flex;
+}
+
+.card-time {
+    color: var(--Soft-blue);
+    display: flex;
+}
+
+.icon-ETH {
+    width: 12px;
+    margin-right: 5px;
+}
+
+.icon-Clock {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.card-footer {
+    border-top: 1px solid var(--Very-dark-blue-line);
+    display: flex;
+    padding: 8px 8px 0;
+}
+
+.image-avatar {
+    width: 33px;
+    margin: 7px;
+    border-radius: 100%;
+    border: 1px solid var(--White);
+}
+
+.text-name {
+    color: var(--White);
+    text-decoration: none;
+}
+
+.text-name:hover {
+    color: var(--Cyan);
+}
