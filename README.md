@@ -1,6 +1,6 @@
 # Frontend Mentor - NFT preview card component solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-nft-preview-card-component-p0gd18hxh). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -35,4 +35,5 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Author
 
-- Frontend Mentor - [@](https://www.frontendmentor.io/profile/NAZIRwill29)
+- Frontend Mentor - [@NAZIRwill29](https://www.frontendmentor.io/profile/NAZIRwill29)
+- hashnode - [Nazzz's Blog](https://mdnazir.hashnode.dev/)

@@ -14,6 +14,11 @@ body {
     place-content: center;
     padding: 1rem;
     font-family: 'Merriweather', serif;
+    min-height: 90vh;
+}
+
+main {
+    display: block;
 }
 
 div {
@@ -48,26 +53,28 @@ p {
 }
 
 .card-image-view {
-    align-items: center;
-    background-color: var(--cyanAlt);
+    background-color: var(--Cyan);
+    background-size: 50px;
     border-radius: 10px;
-    display: flex;
     height: 100%;
-    justify-content: center;
     opacity: 0;
     position: absolute;
     width: 100%;
     z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     transition: opacity .3s ease;
 }
 
 .card-image-view:hover {
-    opacity: 1;
+    opacity: 0.5;
 }
 
-.image-view {
-    width: 50xp;
+.card-image-view img {
+    position: relative;
+    opacity: 1;
 }
 
 .card-body {
@@ -77,6 +84,7 @@ p {
 .card-title {
     font-size: 1.3rem;
     color: var(--White);
+    transition: opacity .3s ease;
 }
 
 .card-title:hover {
